@@ -1,0 +1,26 @@
+{
+  "name": "hamster-bot",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Community bot: Roblox verification, surveys, codes, suggestions, bug reports, showcases, content alerts and boost notifications.",
+  "main": "src/index.js",
+  "engines": {
+    "node": ">=22.13"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "check": "node scripts/check.js",
+    "test:ui": "node --test scripts/ui.test.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.28.1",
+    "dotenv": "^17.2.3",
+    "mysql2": "^3.24.6"
+  },
+  "devDependencies": {
+    "@imgly/background-removal-node": "^1.4.5",
+    "sharp": "^0.35.5"
+  }
+}
