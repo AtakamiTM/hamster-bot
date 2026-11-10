@@ -1,9 +1,9 @@
 # Hamster Bot
 
-![preview1](bot-preview1.png)
-![preview2](bot-preview2.png)
-![preview3](bot-preview3.png)
-![preview4](bot-preview4.png)
+![preview1](img/bot-preview1.png)
+![preview2](img/bot-preview2.png)
+![preview3](img/bot-preview3.png)
+![preview4](img/bot-preview4.png)
 
 Discord bot for Roblox communities, built with discord.js. It brings verification, community features and server configuration together, with MySQL for persistent data.
 
